@@ -9,9 +9,25 @@ setLocation("/Khamrah")
     function GoToKD(){
         setLocation("/KhamrahDukhan")
     }
+    function GoToAsad(){
+        setLocation("/AsadBourboun")
+    }
+    function GoToMashrabya(){
+        setLocation('/Mashrabya')
+    }
+    function GoTo9amDive(){
+        setLocation('/9amDive')
+    }
+    function GoTo9pm(){
+        setLocation('/9pm')
+    }
+    function GotoTurathiBlue(){
+        setLocation('/TurathiBlue')
+    }
     function GoToHP(){
         setLocation("/")
     }
+
     return (
         <div className={styles.everything}>
             <div className={styles.Logo}>
@@ -36,14 +52,14 @@ setLocation("/Khamrah")
                             <ul className={styles.pList}>
                                 <li onClick={GoToK} >Khamrah</li>
                                 <li onClick={GoToKD}>Khamrah Dukhan</li>
-                                <li>Asad</li>
-                                <li>Mashrabya</li>
+                                <li onClick={GoToAsad}>Asad Bourboun</li>
+                                <li onClick={GoToMashrabya}>Mashrabya</li>
                             </ul>
 
                             <ul className={styles.pList1}>
-                                <li>9pm</li>
-                                <li>9pm dive</li>
-                                <li>Turathi Blue</li>
+                                <li onClick={GoTo9pm}>9pm</li>
+                                <li onClick={GoTo9amDive}>9pm dive</li>
+                                <li onClick={GotoTurathiBlue}>Turathi Blue</li>
                             </ul>
 
                             <ul className={styles.pList2}>

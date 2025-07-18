@@ -1,0 +1,40 @@
+.left{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.right{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.images{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    gap: 40px;
+    width: 100%;
+    align-items: flex-end;
+    margin-bottom: 15px;
+}
+.insta{
+    height:35px;
+    width: 35px;
+}
+.whatsapp{
+    height:30px;
+    width: 30px;
+}
+.tiktok{
+    height:35px;
+    width: 35px;
+}
+.all{
+    padding: 10px 10px 10px 10px;
+    font-family: "Candara";
+
+}
+
+
+

@@ -3,6 +3,10 @@ import {useLocation} from "wouter";
 
 export const NavigationBar = () => {
     const [,setLocation]=useLocation()
+    function GoToHP(){
+        setLocation("/")
+    }
+
     function GoToK(){
 setLocation("/Khamrah")
     }
@@ -33,10 +37,24 @@ setLocation("/Khamrah")
     function GoToSpanishT(){
         setLocation('/SpanishTobacco')
     }
-    function GoToHP(){
-        setLocation("/")
+    function GoToClubDeNuit(){
+        setLocation('/ClubDeNuit')
     }
-
+    function GoToClubDeNuitUntold(){
+        setLocation('/ClubDeNuitUntold')
+    }
+    function GoToBlueIconic(){
+        setLocation('/BlueIconic')
+    }
+    function GoToLiquidBrun(){
+        setLocation('/LiquidBrun')
+    }
+    function GoToAzzureAoud(){
+        setLocation('/AzzureAoud')
+    }
+    function GoToAether(){
+        setLocation('/Aether')
+    }
     return (
         <div className={styles.everything}>
             <div className={styles.Logo}>
@@ -79,14 +97,14 @@ setLocation("/Khamrah")
 
 
                             <ul className={styles.pList3}>
-                                <li>Club De Nuit</li>
-                                <li>Untold</li>
-                                <li>Blue Iconic</li>
+                                <li onClick={GoToClubDeNuit}>Club De Nuit</li>
+                                <li onClick={GoToClubDeNuitUntold}>Untold</li>
+                                <li onClick={GoToBlueIconic}>Blue Iconic</li>
                             </ul>
                             <ul className={styles.pList4}>
-                                <li>Liquid burn</li>
-                                <li>Azzure Aoud</li>
-                                <li>Aether</li>
+                                <li onClick={GoToLiquidBrun}>Liquid burn</li>
+                                <li onClick={GoToAzzureAoud}>Azzure Aoud</li>
+                                <li onClick={GoToAether}>Aether</li>
                             </ul>
                         </div>
 

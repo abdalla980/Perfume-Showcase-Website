@@ -11,6 +11,12 @@ import {TurathiBlue} from "./Components/Pages/PerfumesPages/TurathiBlue.tsx";
 import {FrenchT} from "./Components/Pages/PerfumesPages/FrenchT.tsx";
 import {GreekTobacco} from "./Components/Pages/PerfumesPages/GreekTobacco.tsx";
 import {SpanishTobacco} from "./Components/Pages/PerfumesPages/SpanishTobacco.tsx";
+import {ClubDeNuit} from "./Components/Pages/PerfumesPages/ClubDeNuit.tsx";
+import {ClubDeNuitUntold} from "./Components/Pages/PerfumesPages/ClubDeNuitUntold.tsx";
+import {BlueIconic} from "./Components/Pages/PerfumesPages/BlueIconic.tsx";
+import {LiquidBrun} from "./Components/Pages/PerfumesPages/LiquidBrun.tsx";
+import {AzzureAoud} from "./Components/Pages/PerfumesPages/AzzureAoud.tsx";
+import {Aether} from "./Components/Pages/PerfumesPages/Aether.tsx";
 
 function App() {
   const [,setLocation]= useLocation()
@@ -27,6 +33,18 @@ function App() {
           <Route path={'/FrenchTobacco'} component={FrenchT}/>
           <Route path={'/GreekTobacco'} component={GreekTobacco}/>
           <Route path={'/SpanishTobacco'} component={SpanishTobacco}/>
+          <Route path={'/ClubDeNuit'} component={ClubDeNuit}/>
+          <Route path={'/ClubDeNuitUntold'} component={ClubDeNuitUntold}/>
+          <Route path={'/BlueIconic'} component={BlueIconic}/>
+          <Route path={'/LiquidBrun'} component={LiquidBrun}/>
+          <Route path={'/AzzureAoud'} component={AzzureAoud}/>
+          <Route path={'/Aether'} component={Aether}/>
+
+
+
+
+
+
 
 
       </div>

@@ -1,6 +1,5 @@
 import styles from './NavigationBar.module.css';
 import {useLocation} from "wouter";
-import {RamzLattafaAR} from "../Pages/PerfumesPages/RamzLattafaAR.tsx";
 
 export const NavigationBar = () => {
     const [,setLocation]=useLocation()
@@ -59,6 +58,22 @@ setLocation("/Khamrah")
     function GoToRMZL(){
         setLocation('/RamzLataffaAirRefreshner')
     }
+    function GoToMahirBlackAir(){
+        setLocation('/MahirBlackAir')
+    }
+    function GoToFakharWomenAir(){
+        setLocation('/FakharWomenAir')
+    }
+    function GoToAnaAlAbyedhAir(){
+        setLocation('/AnaAlAbyedhAir')
+    }
+    function GoToFakharLattafaAir(){
+        setLocation('/FakharLattafaAir')
+    }
+    function GoToMaahirAir(){
+        setLocation('/MaahirAir')
+    }
+
     return (
         <div className={styles.everything}>
             <div className={styles.Logo}>
@@ -125,18 +140,18 @@ setLocation("/Khamrah")
                             <ul className={styles.ARL}>
                                 <li onClick={GoToRMZL}>Ramz Lataffa Air Refresher</li>
                                 <br/>
-                                <li>Maahir black Air Refresher</li>
+                                <li onClick={GoToMahirBlackAir}>Maahir black Air Refresher</li>
                                 <br/>
-                                <li>Fakhar women Air Refresher</li>
+                                <li onClick={GoToFakharWomenAir}>Fakhar women Air Refresher</li>
                             </ul>
 
 
                             <ul className={styles.ARR}>
-                                <li>Ana Al Abyedh Air Refresher</li>
+                                <li onClick={GoToAnaAlAbyedhAir}>Ana Al Abyedh Air Refresher</li>
                                 <br/>
-                                <li>Fakhar Lattafa Air Refresher</li>
+                                <li onClick={GoToFakharLattafaAir}>Fakhar Lattafa Air Refresher</li>
                                 <br/>
-                                <li>Maahir Air Refresher</li>
+                                <li onClick={GoToMaahirAir}>Maahir Air Refresher</li>
 
                             </ul>
                         </div>

@@ -18,6 +18,11 @@ import {LiquidBrun} from "./Components/Pages/PerfumesPages/LiquidBrun.tsx";
 import {AzzureAoud} from "./Components/Pages/PerfumesPages/AzzureAoud.tsx";
 import {Aether} from "./Components/Pages/PerfumesPages/Aether.tsx";
 import {RamzLattafaAR} from "./Components/Pages/PerfumesPages/RamzLattafaAR.tsx";
+import {MahirBlack} from "./Components/Pages/PerfumesPages/Air Refreshners/MahirBlack.tsx";
+import {FakharWomen} from "./Components/Pages/PerfumesPages/Air Refreshners/FakharWomen.tsx";
+import {AnaAlAbyedh} from "./Components/Pages/PerfumesPages/Air Refreshners/AnaAlAbyedh.tsx";
+import {fakharLattafa} from "./Components/Pages/PerfumesPages/Air Refreshners/fakharLattafa.tsx";
+import {Mahir} from "./Components/Pages/PerfumesPages/Air Refreshners/Mahir.tsx";
 
 function App() {
   const [,setLocation]= useLocation()
@@ -41,6 +46,11 @@ function App() {
           <Route path={'/AzzureAoud'} component={AzzureAoud}/>
           <Route path={'/Aether'} component={Aether}/>
           <Route path={'/RamzLataffaAirRefreshner'} component={RamzLattafaAR}/>
+            <Route path={'/MahirBlackAir'} component={MahirBlack}/>
+            <Route path={'/FakharWomenAir'} component={FakharWomen}/>
+            <Route path={'/AnaAlAbyedhAir'} component={AnaAlAbyedh}/>
+            <Route path={'/FakharLattafaAir'} component={fakharLattafa}/>
+            <Route path={'/MaahirAir'} component={Mahir}/>
 
 
 

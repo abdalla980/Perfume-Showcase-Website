@@ -24,6 +24,15 @@ setLocation("/Khamrah")
     function GotoTurathiBlue(){
         setLocation('/TurathiBlue')
     }
+    function GoToFrenchT(){
+        setLocation('/FrenchTobacco')
+    }
+    function GoToGreekT(){
+        setLocation('/GreekTobacco')
+    }
+    function GoToSpanishT(){
+        setLocation('/SpanishTobacco')
+    }
     function GoToHP(){
         setLocation("/")
     }
@@ -63,9 +72,9 @@ setLocation("/Khamrah")
                             </ul>
 
                             <ul className={styles.pList2}>
-                                <li>French Tobacco</li>
-                                <li>Greek Tobacco</li>
-                                <li>Spanish Tobacco</li>
+                                <li onClick={GoToFrenchT}>French Tobacco</li>
+                                <li onClick={GoToGreekT}>Greek Tobacco</li>
+                                <li onClick={GoToSpanishT}>Spanish Tobacco</li>
                             </ul>
 
 

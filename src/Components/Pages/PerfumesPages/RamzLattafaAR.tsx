@@ -17,7 +17,7 @@ export const RamzLattafaAR = () => {
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
                     <p>
                         Ramz Silver opens with a fresh fruity burst-especially noticeable are apple
-                        and pineapple (some compare it to Creed Aventus in the opening).
+                        and pineapple (some compare it to Creed Aventus in the opening)
                         The heart adds an earthy-floral mix with patchouli and jasmine,
                         while the base is musky, sweet, and slightly woody, giving a clean but bold dry-down.
                     </p>

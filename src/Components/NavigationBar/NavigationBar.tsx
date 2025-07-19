@@ -1,5 +1,6 @@
 import styles from './NavigationBar.module.css';
 import {useLocation} from "wouter";
+import {RamzLattafaAR} from "../Pages/PerfumesPages/RamzLattafaAR.tsx";
 
 export const NavigationBar = () => {
     const [,setLocation]=useLocation()
@@ -54,6 +55,9 @@ setLocation("/Khamrah")
     }
     function GoToAether(){
         setLocation('/Aether')
+    }
+    function GoToRMZL(){
+        setLocation('/RamzLataffaAirRefreshner')
     }
     return (
         <div className={styles.everything}>
@@ -119,7 +123,7 @@ setLocation("/Khamrah")
 
                         <div className={styles.pListContainer}>
                             <ul className={styles.ARL}>
-                                <li>Ramz lataffa Air Refresher</li>
+                                <li onClick={GoToRMZL}>Ramz Lataffa Air Refresher</li>
                                 <br/>
                                 <li>Maahir black Air Refresher</li>
                                 <br/>
@@ -153,25 +157,25 @@ setLocation("/Khamrah")
 
                         <div className={styles.pListContainer}>
                             <ul className={styles.pList}>
-                                <li>Khamrah Dukhan</li>
-                                <li>Mashrabya</li>
+                                <li onClick={GoToKD}>Khamrah Dukhan</li>
+                                <li onClick={GoToMashrabya}>Mashrabya</li>
                             </ul>
 
                             <ul className={styles.pList2}>
-                                <li>French Tobacco</li>
-                                <li>Greek Tobacco</li>
-                                <li>Spanish Tobacco</li>
+                                <li onClick={GoToFrenchT}>French Tobacco</li>
+                                <li onClick={GoToGreekT}>Greek Tobacco</li>
+                                <li onClick={GoToSpanishT}>Spanish Tobacco</li>
                             </ul>
 
 
                             <ul className={styles.pList3}>
-                                    <li>Untold</li>
-                                <li>Blue Iconic</li>
+                                <li onClick={GoToClubDeNuitUntold}>Untold</li>
+                                <li onClick={GoToBlueIconic}>Blue Iconic</li>
                             </ul>
                             <ul className={styles.pList4}>
-                                <li>Liquid burn</li>
-                                <li>Azzure Aoud</li>
-                                <li>Aether</li>
+                                <li onClick={GoToLiquidBrun}>Liquid burn</li>
+                                <li onClick={GoToAzzureAoud}>Azzure Aoud</li>
+                                <li onClick={GoToAether}>Aether</li>
                             </ul>
                         </div>
 
@@ -192,26 +196,26 @@ setLocation("/Khamrah")
 
                         <div className={styles.pListContainer}>
                             <ul className={styles.pList}>
-                                <li>Khamrah</li>
+                                <li onClick={GoToK}>Khamrah</li>
                             </ul>
 
                             <ul className={styles.pList1}>
-                                <li>9pm</li>
-                                <li>Turathi Blue</li>
+                                <li onClick={GoTo9pm}>9pm</li>
+                                <li onClick={GotoTurathiBlue}>Turathi Blue</li>
                             </ul>
 
                             <ul className={styles.pList2}>
-                                <li>French Tobacco</li>
+                                <li onClick={GoToFrenchT}>French Tobacco</li>
                             </ul>
 
 
                             <ul className={styles.pList3}>
-                                <li>Club De Nuit</li>
+                                <li onClick={GoToClubDeNuit}>Club De Nuit</li>
 
                             </ul>
                             <ul className={styles.pList4}>
-                                <li>Liquid burn</li>
-                                <li>Azzure Aoud</li>
+                                <li onClick={GoToLiquidBrun}>Liquid burn</li>
+                                <li onClick={GoToAzzureAoud}>Azzure Aoud</li>
                                 </ul>
                         </div>
 

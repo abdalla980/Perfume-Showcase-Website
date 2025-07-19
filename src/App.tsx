@@ -17,6 +17,7 @@ import {BlueIconic} from "./Components/Pages/PerfumesPages/BlueIconic.tsx";
 import {LiquidBrun} from "./Components/Pages/PerfumesPages/LiquidBrun.tsx";
 import {AzzureAoud} from "./Components/Pages/PerfumesPages/AzzureAoud.tsx";
 import {Aether} from "./Components/Pages/PerfumesPages/Aether.tsx";
+import {RamzLattafaAR} from "./Components/Pages/PerfumesPages/RamzLattafaAR.tsx";
 
 function App() {
   const [,setLocation]= useLocation()
@@ -39,6 +40,8 @@ function App() {
           <Route path={'/LiquidBrun'} component={LiquidBrun}/>
           <Route path={'/AzzureAoud'} component={AzzureAoud}/>
           <Route path={'/Aether'} component={Aether}/>
+          <Route path={'/RamzLataffaAirRefreshner'} component={RamzLattafaAR}/>
+
 
 
 

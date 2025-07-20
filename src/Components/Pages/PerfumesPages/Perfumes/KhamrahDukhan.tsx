@@ -1,6 +1,6 @@
-import styles from  './KhamrahD.module.css';
-import {NavigationBar} from "../../NavigationBar/NavigationBar.tsx";
-import {Footer} from "../../Footer/Footer.tsx";
+import styles from './KhamrahD.module.css';
+import {NavigationBar} from "../../../NavigationBar/NavigationBar.tsx";
+import {Footer} from "../../../Footer/Footer.tsx";
 
 export const KhamrahDukhan = () => {
     return (

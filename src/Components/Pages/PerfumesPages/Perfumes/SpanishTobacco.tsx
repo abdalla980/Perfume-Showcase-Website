@@ -1,8 +1,8 @@
-import styles from './RamzlataffaAr.module.css';
-import {NavigationBar} from "../../NavigationBar/NavigationBar.tsx";
-import {Footer} from "../../Footer/Footer.tsx";
+import styles from './SpanichT.module.css';
+import {NavigationBar} from "../../../NavigationBar/NavigationBar.tsx";
+import {Footer} from "../../../Footer/Footer.tsx";
 
-export const RamzLattafaAR = () => {
+export const SpanishTobacco = () => {
     return (
         <div>
             <NavigationBar/>
@@ -10,35 +10,35 @@ export const RamzLattafaAR = () => {
                 <div className={styles.LContent}>
                     <h2 className={styles.FN}>Fragrance Notes:</h2> <br/>
                     <p>
-                        Top Notes: Bergamot,Apple,Pineapple<br/>
-                        Middle Notes: Patchouli,Jasmine,Birch<br/>
-                        Base Notes: Musk,Vanilla,Ambergris<br/>
+                        Top notes: watery notes, saffron, tonka beans<br/>
+                        Heart notes: cocoa, amber, Spanish tobacco<br/>
+                        Base notes: iris, woods<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
                     <p>
-                        Ramz Silver opens with a fresh fruity burst-especially noticeable are apple
-                        and pineapple (some compare it to Creed Aventus in the opening)
-                        The heart adds an earthy-floral mix with patchouli and jasmine,
-                        while the base is musky, sweet, and slightly woody, giving a clean but bold dry-down.
+                        From the moment the Spanish Tobacco fragrance takes flight,
+                        its distinctive scent spreads, enveloped in notes of saffron and tonka,
+                        delicately blended with amber and tobacco,
+                        and finally delicately embraced by jasmine flowers and woods to create a wonderful aromatic trail.
                     </p>
                 </div>
 
 
                 <div className={styles.ImageContainer}>
-                    <img className={styles.image} src={"Rmzl.png"}/>
+                    <img className={styles.image} src={"SpanishTobacco.avif"}/>
                 </div>
 
 
                 <div className={styles.RContent}>
-                    <h1 className={styles.Name}> Ramz Lattafa Air Refreshner </h1>
-                    <h3>Size:300ml | Unisex </h3>
+                    <h1 className={styles.Name}> Spanish Tobacco</h1>
+                    <h3>Size:200ml | Men </h3>
                     <br/>
                     <br/>
-                    <h2>600 E.P</h2>
+                    <h2>3999 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
                         <img className={styles.insta} src={"insta.png"}/>
-                        <img className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <img  className={styles.whatsapp} src={"Whatsapp.png"}/>
                     </div>
                     <br/>
                     <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>

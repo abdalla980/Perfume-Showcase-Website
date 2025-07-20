@@ -46,7 +46,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -77,4 +76,76 @@ display: block;
   }
 .ARR{
     list-style: none;
+}
+.HamburgerMenu{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 830px) {
+    .HamburgerMenu{
+display: block;
+    }
+
+    .content{
+        overflow: hidden;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background: white;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+    .showMenu{
+        display: flex;
+    }
+    .dropdown{
+        position: static;
+        box-shadow: none;
+        border: none;
+    }
+    .menuItem{
+    width: 100%;
+
+    }
+    .pListContainer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .pList, .pList1, .pList2, .pList3, .pList4 {
+        font-size: 12px;
+        margin-left: -1.3rem;
+    }
+    .brands{
+        gap: 0.8rem;
+        font-size: 14px;
+        margin-left: -2rem;
+    }
+    .Perfumes,
+    .AirR,
+    .New,
+    .BS{
+        font-size: 1.3rem;
+        font-family: "Candara";
+        display: flex;
+        justify-content: center;
+    }
+    .pList li,
+    .pList1 li,
+    .pList2 li,
+    .pList3 li,
+    .pList4 li {
+        margin-bottom: 0.5rem;
+    }
+
 }

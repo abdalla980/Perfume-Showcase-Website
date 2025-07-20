@@ -1,6 +1,6 @@
 import styles from './9pm.module.css';
-import {NavigationBar} from "../../NavigationBar/NavigationBar.tsx";
-import {Footer} from "../../Footer/Footer.tsx";
+import {NavigationBar} from "../../../NavigationBar/NavigationBar.tsx";
+import {Footer} from "../../../Footer/Footer.tsx";
 
 export const Ninepm = () => {
     return (

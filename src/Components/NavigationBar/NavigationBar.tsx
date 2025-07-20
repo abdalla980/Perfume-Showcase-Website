@@ -1,8 +1,15 @@
 import styles from './NavigationBar.module.css';
 import {useLocation} from "wouter";
+import {useState} from "react";
 
 export const NavigationBar = () => {
-    const [,setLocation]=useLocation()
+    const [,setLocation]=useLocation();
+    const[MenuOpen,setMenuOpen]=useState(false);
+   const [selectedSection,setSelectedSection]=useState<string | null >(null)
+
+    function ToggleMenu(){
+        setMenuOpen(!MenuOpen)
+    }
     function GoToHP(){
         setLocation("/")
     }
@@ -77,10 +84,13 @@ setLocation("/Khamrah")
     return (
         <div className={styles.everything}>
             <div className={styles.Logo}>
-                <img onClick={GoToHP} src={"Logo.png"} alt="Logo" />
+                <img onClick={GoToHP} src={"Logo.png"} alt="Logo"/>
+            </div>
+            <div className={styles.HamburgerMenu} onClick={ToggleMenu}>
+                ☰
             </div>
 
-            <div className={styles.content}>
+            <div className={`${styles.content} ${MenuOpen ? styles.showMenu : ''}`} >
 
                 <div className={styles.menuItem}>
                     <p className={styles.Perfumes}>Perfumes</p>
@@ -96,9 +106,9 @@ setLocation("/Khamrah")
 
                         <div className={styles.pListContainer}>
                             <ul className={styles.pList}>
-                                <li onClick={GoToK} >Khamrah</li>
-                                <li onClick={GoToKD}>Khamrah Dukhan</li>
-                                <li onClick={GoToAsad}>Asad Bourboun</li>
+                                <li onClick={GoToK}>Khamrah</li>
+                                <li onClick={GoToKD}>Dukhan</li>
+                                <li onClick={GoToAsad}>Asad-Bourboun</li>
                                 <li onClick={GoToMashrabya}>Mashrabya</li>
                             </ul>
 
@@ -134,7 +144,7 @@ setLocation("/Khamrah")
                     <p className={styles.AirR}>Air Refreshers</p>
 
                     <div className={styles.dropdown}>
-                            <h1 className={styles.titleAR}> Air Refreshers</h1>
+                        <h1 className={styles.titleAR}> Air Refreshers</h1>
 
                         <div className={styles.pListContainer}>
                             <ul className={styles.ARL}>
@@ -231,7 +241,7 @@ setLocation("/Khamrah")
                             <ul className={styles.pList4}>
                                 <li onClick={GoToLiquidBrun}>Liquid burn</li>
                                 <li onClick={GoToAzzureAoud}>Azzure Aoud</li>
-                                </ul>
+                            </ul>
                         </div>
 
 

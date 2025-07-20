@@ -1,8 +1,8 @@
-import styles from './ClubDeNuit.module.css';
-import {NavigationBar} from "../../NavigationBar/NavigationBar.tsx";
-import {Footer} from "../../Footer/Footer.tsx";
+import styles from './9am.module.css';
+import {NavigationBar} from "../../../NavigationBar/NavigationBar.tsx";
+import {Footer} from "../../../Footer/Footer.tsx";
 
-export const ClubDeNuit = () => {
+export const nineAm = () => {
     return (
         <div>
             <NavigationBar/>
@@ -10,32 +10,33 @@ export const ClubDeNuit = () => {
                 <div className={styles.LContent}>
                     <h2 className={styles.FN}>Fragrance Notes:</h2> <br/>
                     <p>
-                        Top Note: Apple, Bergamot, Blackcurrant, Pineapple, Lemon<br/>
-                        Middle Note: Rose, Birch, Jasmine<br/>
-                        Base Note: Musk, Ambergris, Patchouli, Vanilla<br/>
+
+                        Top Notes:Lemon, Pink Pepper, Mint and Black Currant<br/>
+                        Middle Notes:Apple, Incense and Cedar<br/>
+                        Base Notes:Patchouli, Jasmine, Ginger and Sandalwood<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
                     <p>
-                        Club de Nuit intense for man A provocative woody spicy masculine
-                        scent that opens with fresh fruity notes of lemon,
-                        apple and blackcurrant leading to an opulent floral heart of rose and jasmine spiced up
-                        with birch to add a smoky leather nuance.
-                        The base includes vanilla, ambergris, musk and patchouli.
+                        An invigorating and fresh fragrance that captures the essence of a brisk morning plunge into crystal-clear waters.
+                        This dynamic scent opens with lively citrus notes that awaken the senses,
+                        reminiscent of the first rays of sunlight on a serene morning. As it evolves,
+                        a blend of aquatic and ozonic accords takes center stage, creating a refreshing and revitalizing experience.
+                        #CraftedByAfnan
                     </p>
                 </div>
 
 
                 <div className={styles.ImageContainer}>
-                    <img className={styles.image} src={"ClubDeNuit.png"}/>
+                    <img className={styles.image} src={"9AM-Dive.png"}/>
                 </div>
 
 
                 <div className={styles.RContent}>
-                    <h1 className={styles.Name}>Club De Nuit Intense </h1>
-                    <h3>Size:100ml | Men </h3>
+                    <h1 className={styles.Name}>9am Dive</h1>
+                    <h3>Size:100ml | Unisex </h3>
                     <br/>
                     <br/>
-                    <h2>1799 E.P</h2>
+                    <h2>1550 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
                         <img className={styles.insta} src={"insta.png"}/>
@@ -53,3 +54,4 @@ export const ClubDeNuit = () => {
         </div>
     )
 }
+

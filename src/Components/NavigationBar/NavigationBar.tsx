@@ -108,7 +108,7 @@ setLocation("/Khamrah")
                             <ul className={styles.pList}>
                                 <li onClick={GoToK}>Khamrah</li>
                                 <li onClick={GoToKD}>Dukhan</li>
-                                <li onClick={GoToAsad}>Asad-Bourboun</li>
+                                <li onClick={GoToAsad}>Asad Bourboun</li>
                                 <li onClick={GoToMashrabya}>Mashrabya</li>
                             </ul>
 

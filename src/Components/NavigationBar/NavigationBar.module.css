@@ -123,8 +123,8 @@ display: block;
     }
 
     .pList, .pList1, .pList2, .pList3, .pList4 {
-        font-size: 12px;
-        margin-left: -1.3rem;
+        font-size: 10px;
+        margin-left: -1.2rem;
     }
     .brands{
         gap: 0.8rem;
@@ -147,5 +147,9 @@ display: block;
     .pList4 li {
         margin-bottom: 0.5rem;
     }
+.ARL,
+.ARR{
+    display: flex;
 
+}
 }

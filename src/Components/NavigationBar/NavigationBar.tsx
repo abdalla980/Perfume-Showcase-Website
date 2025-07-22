@@ -5,7 +5,6 @@ import {useState} from "react";
 export const NavigationBar = () => {
     const [,setLocation]=useLocation();
     const[MenuOpen,setMenuOpen]=useState(false);
-   const [selectedSection,setSelectedSection]=useState<string | null >(null)
 
     function ToggleMenu(){
         setMenuOpen(!MenuOpen)

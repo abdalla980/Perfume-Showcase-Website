@@ -16,7 +16,7 @@ export const Footer = () => {
                     <img className={styles.tiktok} src={"tiktok.png"}/>
                 </div>
                 <p className={styles.BottomText}>
-                    To order please send us a message on Whatsapp/Instagram!
+                    Follow us!
                 </p>
             </div>
 

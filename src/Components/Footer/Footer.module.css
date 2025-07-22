@@ -2,6 +2,9 @@
     margin-top: 10px;
     margin-left: 5px;
     font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .right{
     font-size: 20px;
@@ -12,10 +15,10 @@
 .images{
     display: flex;
     justify-content: flex-end;
-    margin-top: -50px;
-    gap: 40px;
-    width: 100%;
     align-items: flex-end;
+    margin-top: -5px;
+    gap: 10px;
+    width: 100%;
     margin-bottom: 15px;
 }
 .insta{
@@ -23,6 +26,7 @@
     width: 35px;
 }
 .whatsapp{
+    padding-bottom: 2px;
     height:30px;
     width: 30px;
 }
@@ -30,10 +34,17 @@
     height:35px;
     width: 35px;
 }
-.all{
+.all {
     padding: 10px 10px 10px 10px;
     font-family: "Candara";
-
+    background-color: #ffffff;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.BottomText{
+    margin-right: 10px;
+    margin-top: -10px;
 }
 
 

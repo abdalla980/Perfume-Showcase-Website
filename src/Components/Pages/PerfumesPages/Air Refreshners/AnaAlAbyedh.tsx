@@ -49,8 +49,9 @@ export const AnaAlAbyedh = () => {
                     <p>3 Reviews</p>
                 </div>
             </div>
+            <div className={styles.footer}>
             <Footer/>
-
+            </div>
         </div>
     )
 }

@@ -1,9 +1,9 @@
 * {
 margin: 0;
 }
-/*@font-face {*/
-/*    font-family: Candara;*/
-/*    src:*/
-/*            local("Candara"),*/
-/*            url("/Candara.ttf");*/
-/*}*/
+@font-face {
+    font-family: "Aref Ruqaa";
+    src:
+            local("ArefRuqaa"),
+            url("/ArefRuqaa-Regular.ttf");
+}

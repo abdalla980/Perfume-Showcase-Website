@@ -54,6 +54,11 @@
         display: flex;
         gap: 10px;
     }
+    .text1,
+    .text2{
+        font-size:3.5rem;
+    }
+
 }
 
 

@@ -73,6 +73,7 @@ display: block;
   }
   .ARL{
     list-style: none;
+
   }
 .ARR{
     list-style: none;
@@ -147,9 +148,12 @@ display: block;
     .pList4 li {
         margin-bottom: 0.5rem;
     }
+    .AirR{
+
+    }
 .ARL,
 .ARR{
     display: flex;
-
+   margin-left: -4rem;
 }
 }

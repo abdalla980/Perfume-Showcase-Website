@@ -17,7 +17,7 @@ import {BlueIconic} from "./Components/Pages/PerfumesPages/Perfumes/BlueIconic.t
 import {LiquidBrun} from "./Components/Pages/PerfumesPages/Perfumes/LiquidBrun.tsx";
 import {AzzureAoud} from "./Components/Pages/PerfumesPages/Perfumes/AzzureAoud.tsx";
 import {Aether} from "./Components/Pages/PerfumesPages/Perfumes/Aether.tsx";
-import {RamzLattafaAR} from "./Components/Pages/PerfumesPages/Perfumes/RamzLattafaAR.tsx";
+import {RamzLattafaAR} from "./Components/Pages/PerfumesPages/Air Refreshners/RamzLattafaAR.tsx";
 import {MahirBlack} from "./Components/Pages/PerfumesPages/Air Refreshners/MahirBlack.tsx";
 import {FakharWomen} from "./Components/Pages/PerfumesPages/Air Refreshners/FakharWomen.tsx";
 import {AnaAlAbyedh} from "./Components/Pages/PerfumesPages/Air Refreshners/AnaAlAbyedh.tsx";

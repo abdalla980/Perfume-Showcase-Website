@@ -1,51 +1,79 @@
-.MainContent{
+
+.MainContent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ImageContainer {
+    margin-top: 1rem;
     display: flex;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
-
+    align-items: center;
+    margin-left: 4rem;
 }
-.image{
-    height: 470px;
-    width:25rem;
-    border: black;
 
+.image {
+    width: 20rem;
+    height: 30rem;
 }
+
 .LContent{
-    height: 300px;
-    width: 404px;
-    margin-top: 100px;
-    text-align: left;
-    padding: 0;
-    margin-left: -130px;
+    max-width: 400px;
+    margin-left: 4.5rem;
+    margin-top: 4rem;
     font-family: "Candara";
-
+    text-align: left;
 }
 .RContent{
-    margin-top: 100px;
-    text-align: right;
-    height: 100px;
-    width: 160px;
+    position: absolute;
+    right: 0;
     font-family: "Candara";
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
 
-}
-.insta{
-    height: 40px;
-    width: 40px;
-    margin-right: 50px;
-    margin-bottom:-2px ;
-}
-.whatsapp{
-    margin-top: 10px;
+.insta,
+.whatsapp {
     height: 35px;
     width: 35px;
+    margin: 0 10px;
 }
-.FN{
-    color: #7c0e21;
+
+.Name,
+.FN,
+.PI {
+    color: #000;
 }
-.PI{
-    color: #7c0e21;
-}
-.Name{
-    color: #590916;
+
+
+@media screen and (max-width: 830px) {
+    .MainContent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ImageContainer{
+        margin-left:0;
+    }
+
+    .image {
+        width: 70%;
+        height: auto;
+    }
+
+    .LContent,
+    .RContent {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .RContent{
+        position: static;
+        right: 0;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .LContent{
+        margin-left: 0;
+        margin-top: 0;
+    }
 }

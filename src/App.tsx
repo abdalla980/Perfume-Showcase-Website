@@ -1,7 +1,7 @@
 import './App.css'
 import {HomePage} from "./Components/Pages/HomePage/HomePage.tsx";
 import {Khamrah} from "./Components/Pages/PerfumesPages/Perfumes/Khamrah.tsx";
-import {Route,useLocation} from "wouter";
+import {Route} from "wouter";
 import {KhamrahDukhan} from "./Components/Pages/PerfumesPages/Perfumes/KhamrahDukhan.tsx";
 import {AsadB} from "./Components/Pages/PerfumesPages/Perfumes/AsadB.tsx";
 import {Mashrabya} from "./Components/Pages/PerfumesPages/Perfumes/Mashrabya.tsx";
@@ -25,7 +25,6 @@ import {fakharLattafa} from "./Components/Pages/PerfumesPages/Air Refreshners/fa
 import {Mahir} from "./Components/Pages/PerfumesPages/Air Refreshners/Mahir.tsx";
 
 function App() {
-  const [,setLocation]= useLocation()
     return (
       <div>
           <Route path={'/'} component={HomePage}/>

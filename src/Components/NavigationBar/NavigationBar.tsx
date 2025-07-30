@@ -1,6 +1,6 @@
 import styles from './NavigationBar.module.css';
 import {useLocation} from "wouter";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export const NavigationBar = () => {
     const [,setLocation]=useLocation();
@@ -12,6 +12,16 @@ export const NavigationBar = () => {
     function GoToHP(){
         setLocation("/")
     }
+
+    useEffect(() => {
+if (MenuOpen){
+    document.body.classList.add("sidebar-open");
+}else{
+    document.body.classList.remove("sidebar-open");
+
+}
+    }, [MenuOpen]);
+
 
     function GoToK(){
 setLocation("/Khamrah")
@@ -91,6 +101,7 @@ setLocation("/Khamrah")
 
             <div className={`${styles.content} ${MenuOpen ? styles.showMenu : ''}`} >
 
+
                 <div className={styles.menuItem}>
                     <p className={styles.Perfumes}>Perfumes</p>
 
@@ -113,7 +124,7 @@ setLocation("/Khamrah")
 
                             <ul className={styles.pList1}>
                                 <li onClick={GoTo9pm}>9pm</li>
-                                <li onClick={GoTo9amDive}>9pm dive</li>
+                                <li onClick={GoTo9amDive}>9am dive</li>
                                 <li onClick={GotoTurathiBlue}>Turathi Blue</li>
                             </ul>
 
@@ -143,8 +154,6 @@ setLocation("/Khamrah")
                     <p className={styles.AirR}>Air Refreshers</p>
 
                     <div className={styles.dropdown}>
-                        <h1 className={styles.titleAR}> Air Refreshers</h1>
-
                         <div className={styles.pListContainer}>
                             <ul className={styles.ARL}>
                                 <li onClick={GoToRMZL}>Ramz Lataffa Air Refresher</li>

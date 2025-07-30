@@ -7,3 +7,10 @@ margin: 0;
             local("ArefRuqaa"),
             url("/ArefRuqaa-Regular.ttf");
 }
+body.sidebar-open {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    touch-action: none;
+    overscroll-behavior: contain;
+}

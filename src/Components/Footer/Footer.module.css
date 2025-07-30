@@ -1,10 +1,13 @@
 .left{
     margin-top: 10px;
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 1.1rem;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    opacity: 80%;
 }
 .right{
     font-size: 20px;
@@ -19,7 +22,6 @@
     margin-top: -5px;
     gap: 10px;
     width: 100%;
-    margin-bottom: 15px;
 }
 .insta{
     height:35px;
@@ -44,7 +46,9 @@
 }
 .BottomText{
     margin-right: 10px;
-    margin-top: -10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 
 

@@ -48,11 +48,16 @@
     padding: 1rem;
     text-align: center;
     font-family: "Candara";
+    margin-left: -1rem;
+
 }
 @media screen and (max-width:830px){
     .features{
         display: flex;
         gap: 10px;
+        margin-left: -1rem;
+        font-size: 1.2rem;
+        font-family: "Candara";
     }
     .text1,
     .text2{

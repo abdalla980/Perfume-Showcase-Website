@@ -131,16 +131,16 @@ display: block;
     }
 
     .pList, .pList1, .pList2, .pList3, .pList4 {
-        font-size: 12px;
+        font-size: 1rem;
         margin-left: 0;
         padding-left: 1rem;
+        margin-bottom: -1.3rem;
+        text-decoration: underline;
+        text-decoration-thickness: 0.1em;
     }
 
     .brands {
-        gap: 0.5rem;
-        font-size: 14px;
-        margin-left: 0;
-        flex-wrap: wrap;
+       display: none;
     }
 
     .Perfumes,
@@ -151,24 +151,23 @@ display: block;
         font-family: "Candara";
         display: flex;
         justify-content: flex-start;
-        padding-left: 0.5rem;
-        padding-bottom: 1rem;
+        margin-top: -1rem;
+        padding-left: 2rem;
+        padding-bottom: 0.8rem;
 
     }
-
-    .pList li,
-    .pList1 li,
-    .pList2 li,
-    .pList3 li,
-    .pList4 li {
-        margin-bottom: 0.3rem;
+    .Perfumes{
+        padding-top: -5rem;
     }
 
     .ARL,
     .ARR {
         display: flex;
         flex-direction: column;
-        margin-left: 0;
         padding-left: 1rem;
+        margin-top: -1rem;
+        margin-left: -1rem;
+        text-decoration: underline;
+        text-decoration-thickness: 0.1em;
     }
 }

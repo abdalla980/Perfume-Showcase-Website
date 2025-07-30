@@ -16,7 +16,7 @@ export const nineAm = () => {
                         Base Notes:Patchouli, Jasmine, Ginger and Sandalwood<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         An invigorating and fresh fragrance that captures the essence of a brisk morning plunge into crystal-clear waters.
                         This dynamic scent opens with lively citrus notes that awaken the senses,
                         reminiscent of the first rays of sunlight on a serene morning. As it evolves,
@@ -35,16 +35,12 @@ export const nineAm = () => {
                     <h1 className={styles.Name}>9am Dive</h1>
                     <h3>Size:100ml | Unisex </h3>
                     <br/>
-                    <br/>
                     <h2>1550 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
                         <button className={styles.Button} onClick={()=>window.open("https://instagram.com/mwatinimasr/")}>Order now!</button>
                     </div>
                     <br/>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
                 </div>
             </div>
             <Footer/>

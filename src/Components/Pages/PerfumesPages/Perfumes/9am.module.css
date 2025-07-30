@@ -42,11 +42,10 @@
     background-color: darkgoldenrod;
     border: none;
 }
-.Name,
-.FN,
-.PI {
-    color: #000;
+.Name{
+    font-size: 2.5rem;
 }
+
 
 
 @media screen and (max-width: 830px) {
@@ -57,15 +56,19 @@
     }
     .ImageContainer{
         margin-left:0;
+        order: 1;
     }
 
     .image {
-        width: 70%;
+        width: 100%;
         height: auto;
         padding-bottom:1rem ;
     }
     .PI{
         margin-top: 1rem;
+    }
+    .lastp{
+        margin-bottom: 2rem;
     }
 
     .LContent,
@@ -78,9 +81,12 @@
         right: 0;
         margin-top: 0;
         margin-right: 0;
+        order: 2;
     }
     .LContent{
         margin-left: 0;
         margin-top: 0;
+        order: 3;
     }
+
 }

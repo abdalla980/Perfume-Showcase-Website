@@ -63,14 +63,11 @@
         width: 100%;
         height: auto;
         padding-bottom:1rem ;
+        border-radius: 20px;
     }
     .PI{
         margin-top: 1rem;
     }
-    .lastp{
-        margin-bottom: 2rem;
-    }
-
     .LContent,
     .RContent {
         margin-top: 20px;

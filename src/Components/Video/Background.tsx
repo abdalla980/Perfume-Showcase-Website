@@ -22,7 +22,6 @@ export const Background = () => {
                 <p>Cash on delivery</p>
                 <p>Original Perfumes from the UAE</p>
                 <p>Fast delivery all over Egypt</p>
-
             </div>
         </div>
     )

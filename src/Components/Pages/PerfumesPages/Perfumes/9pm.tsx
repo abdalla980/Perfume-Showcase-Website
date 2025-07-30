@@ -1,21 +1,21 @@
 import styles from './9pm.module.css';
-import {NavigationBar} from "../../../NavigationBar/NavigationBar.tsx";
-import {Footer} from "../../../Footer/Footer.tsx";
+import { NavigationBar } from "../../../NavigationBar/NavigationBar.tsx";
+import { Footer } from "../../../Footer/Footer.tsx";
 
 export const Ninepm = () => {
     return (
         <div>
-            <NavigationBar/>
+            <NavigationBar />
             <div className={styles.MainContent}>
                 <div className={styles.LContent}>
-                    <h2 className={styles.FN}>Fragrance Notes:</h2> <br/>
+                    <h2 className={styles.FN}>Fragrance Notes:</h2> <br />
                     <p>
-                        Top Notes:Bergamot, Lavandin, Cinnamon and Apple<br/>
-                        Middle Notes:Muguet and Orange Blossom<br/>
-                        Base Notes:Patchouli, Amber, Vanilla and Tonka Bean<br/>
+                        Top Notes:Bergamot, Lavandin, Cinnamon and Apple<br />
+                        Middle Notes:Muguet and Orange Blossom<br />
+                        Base Notes:Patchouli, Amber, Vanilla and Tonka Bean<br />
                     </p>
-                    <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <h2 className={styles.PI}>Product Information:</h2> <br />
+                    <p className={styles.lastp}>
                         A bold and provocative fragrance that exudes masculinity and sensuality.
                         It opens with a burst of freshness, featuring top notes of bergamot and pear,
                         which provide a crisp and invigorating introduction. As the scent develops,
@@ -28,32 +28,25 @@ export const Ninepm = () => {
                     </p>
                 </div>
 
-
                 <div className={styles.ImageContainer}>
-                    <img className={styles.image} src={"9pm.png"}/>
+                    <img className={styles.image} src={"9pm.png"} />
                 </div>
-
 
                 <div className={styles.RContent}>
                     <h1 className={styles.Name}>9pm</h1>
                     <h3>Size:100ml | Unisex </h3>
-                    <br/>
-                    <br/>
+                    <br />
                     <h2>1599 E.P</h2>
-                    <br/>
+                    <br />
                     <div className={styles.Icons}>
-                        <img className={styles.insta} src={"insta.png"}/>
-                        <img  className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <button className={styles.Button} onClick={() => window.open("https://instagram.com/mwatinimasr/")}>
+                            Order now!
+                        </button>
                     </div>
-                    <br/>
-                    <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
+                    <br />
                 </div>
             </div>
-            <Footer/>
-
+            <Footer />
         </div>
-    )
-}
+    );
+};

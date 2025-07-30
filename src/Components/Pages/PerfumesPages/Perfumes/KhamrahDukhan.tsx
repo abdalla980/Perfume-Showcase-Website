@@ -20,17 +20,15 @@ export const KhamrahDukhan = () => {
                         Ethereal and hypnotic, Khamrah Dukhan captures the allure of rising smoke with its mesmerizing movement,
                         sophisticated depth, and complex sillage.
                         It transforms tradition into a modern olfactive statement of power and allure.
-                        The burning composition of pimento, tobacco, and amber creates a fragrance that exudes raw energy
-                        , boldness, and addictive allure. While Khamrah Dukhan remains a unisex fragrance,
+                        The burning composition of pimento, tobacco, and amber creates a fragrance that exudes raw energy,
+                        boldness, and addictive allure. While Khamrah Dukhan remains a unisex fragrance,
                         this edition takes on a masculine angle, embracing the strength and intensity that resonate with masculinity.
                     </p>
                 </div>
 
-
                 <div className={styles.ImageContainer}>
                     <img className={styles.image} src={"KhamrahDukhan.jpg"}/>
                 </div>
-
 
                 <div className={styles.RContent}>
                     <h1 className={styles.Name}>Khamrah Dukhan</h1>
@@ -40,18 +38,17 @@ export const KhamrahDukhan = () => {
                     <h2>1900 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
-                        <img className={styles.insta} src={"insta.png"}/>
-                        <img  className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <button
+                            className={styles.Button}
+                            onClick={() => window.open("https://instagram.com/mwatinimasr/")}
+                        >
+                            Order now!
+                        </button>
                     </div>
                     <br/>
-                    <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
                 </div>
             </div>
             <Footer/>
-
         </div>
-    )
+    );
 }

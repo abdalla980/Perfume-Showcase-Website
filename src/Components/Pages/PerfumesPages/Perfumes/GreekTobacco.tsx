@@ -28,11 +28,9 @@ export const GreekTobacco = () => {
                     </p>
                 </div>
 
-
                 <div className={styles.ImageContainer}>
                     <img className={styles.image} src={"GreekTobacco.png"}/>
                 </div>
-
 
                 <div className={styles.RContent}>
                     <h1 className={styles.Name}> Greek Tobacco</h1>
@@ -42,18 +40,12 @@ export const GreekTobacco = () => {
                     <h2>3999 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
-                        <img className={styles.insta} src={"insta.png"}/>
-                        <img  className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <button className={styles.Button} onClick={() => window.open("https://instagram.com/mwatinimasr/")}>Order now!</button>
                     </div>
                     <br/>
-                    <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
                 </div>
             </div>
             <Footer/>
-
         </div>
     )
 }

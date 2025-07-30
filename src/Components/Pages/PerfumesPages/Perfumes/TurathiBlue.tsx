@@ -10,10 +10,9 @@ export const TurathiBlue = () => {
                 <div className={styles.LContent}>
                     <h2 className={styles.FN}>Fragrance Notes:</h2> <br/>
                     <p>
-
-                        Top Notes:Bergamot and Mandarin<br/>
-                        Middle Notes:Amber and Woody<br/>
-                        Base Notes:Musk, Patchouli and Fresh Spicy<br/>
+                        Top Notes: Bergamot and Mandarin<br/>
+                        Middle Notes: Amber and Woody<br/>
+                        Base Notes: Musk, Patchouli and Fresh Spicy<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
                     <p>
@@ -28,11 +27,9 @@ export const TurathiBlue = () => {
                     </p>
                 </div>
 
-
                 <div className={styles.ImageContainer}>
                     <img className={styles.image} src={"TurathiBlue.png"}/>
                 </div>
-
 
                 <div className={styles.RContent}>
                     <h1 className={styles.Name}>Turathi Blue</h1>
@@ -42,18 +39,17 @@ export const TurathiBlue = () => {
                     <h2>1889 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
-                        <img className={styles.insta} src={"insta.png"}/>
-                        <img  className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <button
+                            className={styles.Button}
+                            onClick={() => window.open("https://instagram.com/mwatinimasr/")}
+                        >
+                            Order now!
+                        </button>
                     </div>
                     <br/>
-                    <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
                 </div>
             </div>
             <Footer/>
-
         </div>
     )
 }

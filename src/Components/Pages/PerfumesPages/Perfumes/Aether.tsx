@@ -18,15 +18,13 @@ export const Aether = () => {
                     <p>
                         Aether is one of the great fragrances that transforms the life of the wearer.
                         Its fresh, powerful scent has the power to seduce.
-                        This will double your charisma. And: you will shine
+                        This will double your charisma, And you will shine.
                     </p>
                 </div>
-
 
                 <div className={styles.ImageContainer}>
                     <img className={styles.image} src={"aether.png"}/>
                 </div>
-
 
                 <div className={styles.RContent}>
                     <h1 className={styles.Name}> Aether </h1>
@@ -36,18 +34,12 @@ export const Aether = () => {
                     <h2>1490 E.P</h2>
                     <br/>
                     <div className={styles.Icons}>
-                        <img className={styles.insta} src={"insta.png"}/>
-                        <img className={styles.whatsapp} src={"Whatsapp.png"}/>
+                        <button className={styles.Button} onClick={() => window.open("https://instagram.com/mwatinimasr/")}>Order now!</button>
                     </div>
                     <br/>
-                    <p>To order please send us <br/>a message on <br/>whatsapp/instagram!</p>
-                    <img src={"5 stars.png"}/>
-                    <br/>
-                    <p>3 Reviews</p>
                 </div>
             </div>
             <Footer/>
-
         </div>
     )
 }

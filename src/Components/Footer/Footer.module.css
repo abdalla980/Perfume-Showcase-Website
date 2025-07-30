@@ -37,6 +37,7 @@
     width: 35px;
 }
 .all {
+    padding-top: 1rem;
     padding: 10px 10px 10px 10px;
     font-family: "Candara";
     background-color: #fdf7f1;

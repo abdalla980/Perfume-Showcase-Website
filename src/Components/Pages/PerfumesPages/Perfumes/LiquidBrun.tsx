@@ -15,13 +15,15 @@ export const LiquidBrun = () => {
                         Base : Ambrox, guaiac wood, musk, pralines<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Liquid Brun by French Avenue, launched in 2024,
                         is a sophisticated woody cologne for men that blends warm spices,
                         sensual sweetness, and deep woody notes. It opens with cinnamon, cardamom,
                         and bergamot, brightened by orange blossom. The heart features creamy Bourbon vanilla
-                        and resinous elemi for a rich yet elegant touch. A base of toasted praline, ambroxan, guaiac wood,
-                        and musk adds depth, warmth, and long-lasting sensuality. Ideal for cooler days and evening wear,
+                        and resinous elemi for a rich yet elegant touch. A base of toasted praline, ambroxan, guaiac
+                        wood,
+                        and musk adds depth, warmth, and long-lasting sensuality. Ideal for cooler days and evening
+                        wear,
                         Liquid Brun suits the modern man seeking a charismatic, unforgettable scent.
                     </p>
                 </div>

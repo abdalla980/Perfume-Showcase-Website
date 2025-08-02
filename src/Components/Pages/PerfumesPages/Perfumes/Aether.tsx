@@ -15,7 +15,7 @@ export const Aether = () => {
                         Background notes: Oakmoss, musk, amber wood<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Aether is one of the great fragrances that transforms the life of the wearer.
                         Its fresh, powerful scent has the power to seduce.
                         This will double your charisma, And you will shine.

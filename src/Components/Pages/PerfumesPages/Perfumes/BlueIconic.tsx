@@ -15,7 +15,7 @@ export const BlueIconic = () => {
                         Base Notes: Incense, Amber, Cedar, Sandalwood, Patchouli, Labdanum, Woody<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Armaf's Club de Nuit Blue Iconic is a sophisticated and fresh fragrance that combines
                         citrusy top notes with spicy and woody undertones.
                         It's designed for the modern man who appreciates a blend of freshness and depth in his scent.

@@ -15,7 +15,7 @@ export const AzzureAoud = () => {
                         Background notes: leather, woody notes, vanilla<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Azzure Aoud is a deep and intense nectar that will dress you elegantly.
                         It's a blend of explosively hot and exquisite ingredients .
                         This way, you'll be put in the spotlight, with a distinctive sophistication and a delicate

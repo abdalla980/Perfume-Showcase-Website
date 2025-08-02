@@ -16,7 +16,7 @@ export const Khamrah = () => {
                         Base: Roasted Tonka, Benzoin Laos, Myrrh, Akigalawood, Vanilla, Amber Wood<br />
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br />
-                    <p>
+                    <p className={styles.lastp}>
                         Khamrah by Lattafa Perfumes is an Aromatic Spicy fragrance for women and men. This is a new
                         fragrance. Khamrah was launched in 2022. The top notes are Cinnamon, Nutmeg, and Bergamot; the
                         middle notes are Dates, Praline, Tuberose, and Mahonial; the base notes are Vanilla, Tonka Bean,

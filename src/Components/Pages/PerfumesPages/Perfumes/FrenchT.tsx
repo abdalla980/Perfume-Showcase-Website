@@ -15,7 +15,7 @@ export const FrenchT = () => {
                         Base notes: guaiac wood, lemon, frankincense, iris<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         French Tobacco combines the scent of citrus and vintage French tobacco,
                         intertwined with warm, captivating woody notes. The fragrant scent of iris flows between
                         these ingredients like a gentle breeze, elegant and distinctive.

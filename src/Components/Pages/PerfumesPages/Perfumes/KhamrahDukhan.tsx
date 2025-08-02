@@ -15,14 +15,18 @@ export const KhamrahDukhan = () => {
                         Base: Tobacco, Amber, Tonka Bean, Benzoin, Praline<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
-                        Dukhan, meaning "smoke," is deeply rooted in Middle Eastern heritage and the ritual of burning perfume.
-                        Ethereal and hypnotic, Khamrah Dukhan captures the allure of rising smoke with its mesmerizing movement,
+                    <p className={styles.lastp}>
+                        Dukhan, meaning "smoke," is deeply rooted in Middle Eastern heritage and the ritual of burning
+                        perfume.
+                        Ethereal and hypnotic, Khamrah Dukhan captures the allure of rising smoke with its mesmerizing
+                        movement,
                         sophisticated depth, and complex sillage.
                         It transforms tradition into a modern olfactive statement of power and allure.
-                        The burning composition of pimento, tobacco, and amber creates a fragrance that exudes raw energy,
+                        The burning composition of pimento, tobacco, and amber creates a fragrance that exudes raw
+                        energy,
                         boldness, and addictive allure. While Khamrah Dukhan remains a unisex fragrance,
-                        this edition takes on a masculine angle, embracing the strength and intensity that resonate with masculinity.
+                        this edition takes on a masculine angle, embracing the strength and intensity that resonate with
+                        masculinity.
                     </p>
                 </div>
 

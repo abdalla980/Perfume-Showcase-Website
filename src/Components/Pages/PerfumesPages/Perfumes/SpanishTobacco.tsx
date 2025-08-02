@@ -15,11 +15,12 @@ export const SpanishTobacco = () => {
                         Base notes: iris, woods<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         From the moment the Spanish Tobacco fragrance takes flight,
                         its distinctive scent spreads, enveloped in notes of saffron and tonka,
                         delicately blended with amber and tobacco,
-                        and finally delicately embraced by jasmine flowers and woods to create a wonderful aromatic trail.
+                        and finally delicately embraced by jasmine flowers and woods to create a wonderful aromatic
+                        trail.
                     </p>
                 </div>
 

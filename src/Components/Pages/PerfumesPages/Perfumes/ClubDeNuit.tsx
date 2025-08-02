@@ -15,7 +15,7 @@ export const ClubDeNuit = () => {
                         Base Note: Musk, Ambergris, Patchouli, Vanilla<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Club de Nuit intense for man A provocative woody spicy masculine
                         scent that opens with fresh fruity notes of lemon,
                         apple and blackcurrant leading to an opulent floral heart of rose and jasmine spiced up

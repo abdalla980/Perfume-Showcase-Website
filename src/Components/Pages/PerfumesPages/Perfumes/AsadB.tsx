@@ -15,8 +15,9 @@ export const AsadB = () => {
                         Base Notes: Vetiver, Vanilla Bourbon, Amber<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
-                        Eau de Parfum spray is a unisex fragrance that embodies a perfect blend of elegance and sophistication.
+                    <p className={styles.lastp}>
+                        Eau de Parfum spray is a unisex fragrance that embodies a perfect blend of elegance and
+                        sophistication.
                         It opens with vibrant top notes of pink pepper, soothing lavender, and juicy mirabelle,
                         creating an inviting and dynamic start. The heart reveals a warm and intriguing combination
                         of nutmeg, davana, and rich cacao, adding depth and allure. Finally, the base notes of vetiver,

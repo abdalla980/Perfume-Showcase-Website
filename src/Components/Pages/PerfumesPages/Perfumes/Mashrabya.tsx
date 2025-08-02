@@ -15,7 +15,7 @@ export const Mashrabya = () => {
                         Base Notes: Vanilla, Caramel, Patchouli.<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         From the house of Lattafa comes Mashrabya,
                         a unisex fragrance that effortlessly blends modern sophistication with
                         timeless tradition. It opens with the vibrant allure of apple shisha accord and

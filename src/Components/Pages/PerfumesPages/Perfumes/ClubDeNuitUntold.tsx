@@ -15,7 +15,7 @@ export const ClubDeNuitUntold = () => {
                         Base Notes: Fir Resin and Cedar<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Club de Nuit Untold by Armaf is a bold and captivating fragrance that commands
                         attention with its rich, smoky allure and sophisticated depth.
                         A statement scent for those who defy convention,

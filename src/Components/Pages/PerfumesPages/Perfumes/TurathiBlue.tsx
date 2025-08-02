@@ -15,7 +15,7 @@ export const TurathiBlue = () => {
                         Base Notes: Musk, Patchouli and Fresh Spicy<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         Turathi Blue Pour Homme exudes masculine sophistication and vitality.
                         Opening with a refreshing blend of bergamot and mandarin,
                         it energizes the senses like a brisk breeze. As it develops,

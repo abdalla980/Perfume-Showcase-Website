@@ -15,7 +15,7 @@ export const GreekTobacco = () => {
                         Base notes: Greek tobacco, musk, peony<br/>
                     </p>
                     <h2 className={styles.PI}>Product Information:</h2> <br/>
-                    <p>
+                    <p className={styles.lastp}>
                         In the world of perfumery, Greek Tobacco shines as a masterpiece that blends the fragrance
                         of flowers with the mystery of luxurious Greek tobacco.
                         The scent of delicate peony wafts like a sweet breeze,
@@ -23,7 +23,8 @@ export const GreekTobacco = () => {
                         It is a fragrance that embodies beauty and luxury simultaneously,
                         shining with splendor and captivating hearts with its unique charm.
                         This luxurious scent takes you on a journey of sensations.
-                        It is an exceptional experience that carries within it the beauty of nature and the elegance of art,
+                        It is an exceptional experience that carries within it the beauty of nature and the elegance of
+                        art,
                         making it an irresistible fragrance.
                     </p>
                 </div>

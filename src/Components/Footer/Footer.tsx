@@ -2,6 +2,7 @@ import styles from './Footer.module.css';
 
 export const Footer = () => {
     return (
+        <div className={styles.newcode}>
         <div className={styles.all}>
 
             <div className={styles.left}>
@@ -23,6 +24,7 @@ export const Footer = () => {
 
             </div>
 
+        </div>
         </div>
     )
 }

@@ -9,12 +9,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 4rem;
 }
 
 .image {
-    width: 20rem;
-    height: 30rem;
+    width: 25rem;
+    height: 25rem;
 }
 
 .LContent{
@@ -45,7 +44,9 @@
 .Name{
     font-size: 2.5rem;
 }
-
+.lastp{
+    padding-bottom:3rem ;
+}
 
 
 @media screen and (max-width: 830px) {

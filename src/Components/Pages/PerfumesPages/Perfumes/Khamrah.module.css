@@ -13,7 +13,8 @@
 }
 
 .image {
-    width: 20rem;
+    margin-left: -2rem;
+    width: 27rem;
     height: 30rem;
 }
 
@@ -64,6 +65,7 @@
         height: auto;
         padding-bottom:1rem ;
         border-radius: 20px;
+        margin-left: 0;
     }
     .PI{
         margin-top: 1rem;

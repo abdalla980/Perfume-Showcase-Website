@@ -44,7 +44,6 @@ export const nineAm = () => {
                 </div>
             </div>
             <Footer/>
-
         </div>
     )
 }

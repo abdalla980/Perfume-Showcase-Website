@@ -5,15 +5,14 @@
 }
 
 .ImageContainer {
-    margin-top: 1rem;
+    margin-top: -2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 4rem;
 }
 
 .image {
-    width: 20rem;
+    width: 24rem;
     height: 30rem;
 }
 
